@@ -38,6 +38,11 @@ function App() {
             <Route path="/services" element={<Services />} />
           </Routes>
         </div>
+        <footer className="bg-gray-800 text-white py-4">
+          <div className="max-w-7xl mx-auto text-center">
+            <p>&copy; {new Date().getFullYear()} Fits Cargo. All rights reserved.</p>
+          </div>
+        </footer>
       </div>
     </Router>
   );
